@@ -1,0 +1,9 @@
+load r1 => r2
+loadI 3 => r2
+store r1 => r2
+add r1, r2 => r3
+lshift r1, r2 => r3
+rshift r1, r2 => r3
+output 3
+nop
+
