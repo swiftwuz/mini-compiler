@@ -1,6 +1,3 @@
-//NAME: NANA KOJO EWUSIE
-//INDEX NUMBER: 040118156
-
 To execute the compiler, open your terminal and go the compiler's path.
 To allow file access and run the executable, type 'chmod a+x 341fe'.
 
