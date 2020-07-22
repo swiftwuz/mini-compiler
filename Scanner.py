@@ -498,7 +498,3 @@ class Scanner(object):
     @verbose.setter
     def verbose(self, verbose):
         self.__verbose = verbose  # set the current verbose flag to the input verbose flag
-
-if __name__ == '__main__':
-    Scanner('/Users/nanakojoewusie/Desktop/𝖜𝖚𝖟𝖈𝖆𝖗𝖙𝖎/compiler/341fe-n::/Scanner.py')
-    print('hey')

@@ -23,7 +23,7 @@ class Constants(object):
     OUTPUT_PRODUCTION = list([OUTPUT, CONSTANT])
     NOP_PRODUCTION = list([NOP])
     EMPTY_SLOT = "-"
-    
+
     # user manual for the -h flag
     USER_MANUAL = "Syntax: /341fe [flags] filename\n\n" \
         "NB: filename is the pathname (absolute or relative) to the input file\n\n" \
@@ -48,6 +48,7 @@ class Constants(object):
     SUCCESSFUL_PARSER_MESSAGE_SUFFIX = "ILOC operations."
     INVALID_OPCODE_ERROR = "Operation starts with an invalid opcode:"
     PARSER_FINAL_ERROR_R = "Due to syntax errors, run terminates."
+
 
 class Node(object):
     def __init__(self, data):
@@ -92,4 +93,3 @@ class DoublyLinkedNode(Node, object):
     @prev_node.setter
     def prev_node(self, prev_node):
         self.__prev_node = prev_node  
-

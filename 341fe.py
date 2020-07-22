@@ -115,5 +115,3 @@ else:
 
                 elif "-q" in flags:
                     sys.exit()
-
-
